@@ -9,11 +9,11 @@
    /_/ /  \_\_\
 ```
 
-# sirine@archlinux
+# archlinux
 
 **Arch Linux** · **Hyprland** · **Wayland** · **zsh**
 
-*my ever-changing dotfiles for my arch hyprland setup.*
+*my ever-changing dotfiles.*
 
 </div>
 
@@ -205,15 +205,11 @@ prefix + I   →   install plugins
 - some paths may reference `sirine` — grep and replace as needed
 
 ---
+## star history
+[![Star History Chart](https://api.star-history.com/svg?repos=SirineZanina/arch-hyprland-dotfiles&type=Date)](https://star-history.com/#SirineZanina/arch-hyprland-dotfiles&Date)
 
 ## credits
 
 built on the work of countless people in the rice community. nothing here is truly original — just assembled and tweaked to taste. if you recognize your work, thank you.
 
 ---
-
-<div align="center">
-
-*btw i use arch*
-
-</div>
