@@ -1,24 +1,6 @@
-<div align="center">
-
-```
-        /\
-       /  \
-      / /\ \
-     / /  \ \
-    / / /\ \ \
-   /_/ /  \_\_\
-```
-
-# archlinux
-
-**Arch Linux** · **Hyprland** · **Wayland** · **zsh**
-
-*my ever-changing dotfiles.*
-
-</div>
+# my ever-changing dotfiles
 
 ---
-
 ## showcase
 
 | desktop | editor |
@@ -210,6 +192,6 @@ prefix + I   →   install plugins
 
 ## credits
 
-built on the work of countless people in the rice community. nothing here is truly original — just assembled and tweaked to taste. if you recognize your work, thank you.
+built on the work of countless people in the rice community. nothing here is truly original, just assembled and tweaked to taste.
 
 ---
