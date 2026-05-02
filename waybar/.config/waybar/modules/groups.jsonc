@@ -20,18 +20,6 @@
     ]
   },
 
-  // ===== LAPTOP HARDWARE GROUP =====
-  // Always visible: Backlight and Battery
-  "group/laptop": {
-    "orientation": "inherit",
-    "modules": [
-     // "power-profiles-daemon",
-     "custom/cpufreq",
-      "battery",
-      "backlight"
-    ]
-  },
-
   // ===== AUDIO CONTROL GROUP =====
   // Click Volume to expand: Volume and Microphone
   "group/audio": {

@@ -160,10 +160,8 @@ eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 
 # ============================================================================
-# OH MY POSH (MUST BE LAST)
+# PYTHON VENVS
 # ============================================================================
-# This line was moved to the end to correctly initialize the transient prompt.
-eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
 
 # usage 
 # $ mkvenv myvirtualenv # creates venv under ~/.virtualenvs/
@@ -206,5 +204,23 @@ rmvenv() {
   fi
 }
 
+# ============================================================================
+# BUN
+# ============================================================================
+
 # bun completions
 [ -s "/home/sirine/.bun/_bun" ] && source "/home/sirine/.bun/_bun"
+
+# ============================================================================
+# FNM (must be before oh-my-posh)
+# ============================================================================
+
+# Ensure fnm shims take priority over any system Node (/usr/bin/node)
+export PATH="$FNM_DIR/aliases/default/bin:$PATH"
+eval "$(fnm env --use-on-cd --shell zsh)"
+
+# ============================================================================
+# OH MY POSH (MUST BE LAST)
+# ============================================================================
+
+eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"

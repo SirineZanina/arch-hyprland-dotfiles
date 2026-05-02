@@ -5,6 +5,7 @@
 # ═══════════════════════════════════════════════════════════════════════════════
 # ESSENTIAL SETTINGS (from Arch Wiki)
 # ═══════════════════════════════════════════════════════════════════════════════
+set recolor true
 
 # Enable copy to clipboard (Arch Wiki recommendation)
 set selection-clipboard clipboard

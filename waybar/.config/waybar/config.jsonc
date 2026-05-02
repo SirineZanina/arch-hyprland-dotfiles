@@ -19,18 +19,17 @@
     "clock",
     "custom/separator#line",
     "tray",
-    "custom/separator#blank_2",
-    "hyprland/workspaces#rw"
+    "custom/separator#blank",
+    "backlight",
+    "battery"
   ],
   "modules-center": [
-    "hyprland/window"
+    "hyprland/workspaces"
   ],
   "modules-right": [
     "group/audio",
-    "custom/separator#dot-line",
-    "group/laptop",
-    "custom/separator#dot-line",
-    "group/mobo_drawer",
+    "custom/cpufreq",
+    "group/mobo_drawer", 
     "custom/separator#blank_2",
     "group/notify",
     "custom/separator#line",

@@ -55,6 +55,10 @@ export PATH="$HOME/.dotnet:$HOME/.dotnet/tools:$PATH"
 # export CONDA_ROOT="$HOME/miniconda3"
 # export PATH="$CONDA_ROOT/bin:$PATH"
 
+# BUN
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
 # ============================================================================
 # XDG COMPLIANT APPLICATION CONFIGS
 # ============================================================================
@@ -91,7 +95,7 @@ export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc-2.0"
 export WINEPREFIX="$XDG_DATA_HOME/wineprefixes/default"
 
 # Java options
-export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME/java"
+export JDK_JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME/java"
 export _JAVA_AWT_WM_NONREPARENTING=1 # Fix for Java GUI apps in tiling WMs
 
 # ============================================================================
@@ -115,3 +119,6 @@ export LESS_TERMCAP_so="$(printf '%b' '[01;44;33m')" # Begin standout
 export LESS_TERMCAP_se="$(printf '%b' '[0m')"        # End standout
 export LESS_TERMCAP_us="$(printf '%b' '[1;32m')"     # Begin underline
 export LESS_TERMCAP_ue="$(printf '%b' '[0m')"        # End underline
+
+export QT_QPA_PLATFORM=xcb
+
